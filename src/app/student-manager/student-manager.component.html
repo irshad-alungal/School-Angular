@@ -25,45 +25,47 @@
 </section>
 
 <div class="lg:grid lg:grid-cols-3 justify-items-center mx-1">
-  <div class="pt-6">
+  <div class="pt-6" *ngFor="let student of allStudent">
     <div class="relative mb-6 px-11 w-full">
       <div class="shadow p-4 rounded-lg bg-gray-100 mb-1">
         <div class="flex justify-center relative rounded-lg overflow-hidden h-52">
           <div class="transition-transform duration-500 transform ease-in-out hover:scale-110 w-full">
             <img
-              src="https://img.freepik.com/free-photo/teenager-having-fun-with-friends_23-2149306183.jpg?w=1060&t=st=1691061350~exp=1691061950~hmac=20869ec97eadf58b3ef5b1772f8e4c7adb11ae45f8e989df35f5030fb914703d"
+              [src]="student.photo"
               alt="">
           </div>
           <span
             class="absolute top-0 left-0 inline-flex mt-3 ml-3 px-3 py-2 rounded-lg z-10 bg-red-500 text-sm font-medium text-white select-none">
-            Class 9
+            <p>Class <span> {{student.class}}</span></p>
           </span>
         </div>
 
         <div class="mt-2">
           <h1 class="font-medium text-2xl  md:text-lg text-gray-800 line-clamp-1" title="New York">
-            Statue of Liberty
+            {{student.name}}
           </h1>
           <p class="mt-2 text-sm text-gray-800 line-clamp-1" title="New York, NY 10004, United States">
-            <b>Email:</b> nbgfjb@gmail.com
+            <b>Email:</b> {{student.email}}
           </p>
           <p class="mt-2 text-sm text-gray-800 line-clamp-1" title="New York, NY 10004, United States">
-            <b>Phone:</b> +91 73 5626 4323
+            <b>Phone:</b> {{student.mobile}}
           </p>
         </div>
 
         <div class="lg:grid lg:grid-cols-2 mt-2 flex justify-center justify-items-center">
           <div class="p-3">
-            <button routerLink="/student/view/:studentId" class="bg-yellow-600 text-white px-4 py-2 rounded-lg hover:text-black"><i
-                class="fa-solid fa-eye"></i> View </button>
+            <button routerLink="/student/view/{{student.id}}"
+              class="bg-yellow-600 text-white px-4 py-2 rounded-lg hover:text-black"><i class="fa-solid fa-eye"></i>
+              View </button>
           </div>
           <div class="p-3">
-            <button routerLink="/student/edit/:studentId" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:text-black"><i class="fa-solid fa-pen"></i>
+            <button routerLink="/student/edit/{{student.id}}"
+              class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:text-black"><i class="fa-solid fa-pen"></i>
               Update </button>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
+
 </div>
