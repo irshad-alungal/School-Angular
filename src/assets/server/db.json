@@ -1,0 +1,235 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "name": "Harry",
+      "email": "jeteve@yahoo.ca",
+      "mobile": "(360) 784-5410",
+      "class": "8",
+      "gender": "Male",
+      "teacher": "Remington Benton",
+      "address": "9660 E. Sulphur Springs Drive, Hyde Park, MA 02136",
+      "photo": "https://img.freepik.com/premium-photo/young-teenage-boy-smiling-camera-outdoor_442523-820.jpg?w=2000"
+    },
+    {
+      "id": 2,
+      "name": "Emily",
+      "email": "netsfr@comcast.net",
+      "mobile": "(827) 742-1157",
+      "class": "9",
+      "gender": "Female",
+      "teacher": "Kayden Sullivan",
+      "address": "954 N. Princeton St. Roseville, MI 48066",
+      "photo": "https://st.depositphotos.com/1003410/1318/i/450/depositphotos_13180968-stock-photo-smiling-teenage-girl.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Amelie",
+      "email": "violinhi@optonline.net",
+      "mobile": "(249) 699-5325",
+      "class": "8",
+      "gender": "Female",
+      "teacher": "Remington Benton",
+      "address": "91 Thompson Avenue, Hudson, NH 03051",
+      "photo": "https://t3.ftcdn.net/jpg/02/33/36/80/360_F_233368079_ONOqqeAnEYElKTIXFXDkCyODbdPKlQNz.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Oscar",
+      "email": "tskirvin@outlook.com",
+      "mobile": "(610) 886-0645",
+      "class": "10",
+      "gender": "Male",
+      "teacher": "Gina Campos",
+      "address": "8441 Spring Street, Farmingdale, NY 11735",
+      "photo": "https://media.istockphoto.com/id/1158014305/photo/headshot-of-a-teenage-boy.jpg?s=612x612&w=0&k=20&c=8-IgHWJqmpTwS3Bc6jpT5jnHfO8bJiKWA1Hfx1xIq3k="
+    },
+    {
+      "id": 5,
+      "name": "Jake",
+      "email": "privcan@aol.com",
+      "mobile": "(733) 495-2888",
+      "class": "10",
+      "gender": "Male",
+      "teacher": "Gina Campos",
+      "address": "432 S. Vine Court, Oak Ridge, TN 37830",
+      "photo": "https://media.istockphoto.com/id/1058733496/photo/headshot-of-a-teenage-boy.jpg?s=612x612&w=0&k=20&c=m3YRRtqhjYTHh3L0d1UUvDpXl0OnDDZJ83ItA5g4O5I="
+    },
+    {
+      "id": 6,
+      "name": "Alfred",
+      "email": "pontipak@hotmail.com",
+      "mobile": "(523) 393-8988",
+      "class": "9",
+      "gender": "Male",
+      "teacher": "Kayden Sullivan",
+      "address": "131 Helen Avenue, Wenatchee, WA 98801",
+      "photo": "https://media.istockphoto.com/id/1387529022/photo/portrait-of-a-happy-teenager-boy-at-home.webp?b=1&s=170667a&w=0&k=20&c=ZDqYe4cte-c3rtl05G1NvcKdI9usg3EoSo7MISyJoWI="
+    },
+    {
+      "id": 7,
+      "name": "Georgia",
+      "email": "jbuchana@gmail.com",
+      "mobile": "(294) 833-6695",
+      "class": "9",
+      "gender": "Female",
+      "teacher": "Kayden Sullivan",
+      "address": "9467 North Grand Street, Bowling Green, KY 42101",
+      "photo": "https://img.freepik.com/premium-photo/portrait-young-african-girl-smiling-rejoicing-clean-yellow-background_627378-1719.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Ibrahim",
+      "email": "jaesenj@optonline.net",
+      "mobile": "(616) 365-1782",
+      "class": "8",
+      "gender": "Male",
+      "teacher": "Remington Benton",
+      "address": "252 West Plumb Branch Street, Glendale, AZ 85302",
+      "photo": "https://img.freepik.com/free-photo/portrait-cool-teenage-boy-taking-selfie_23-2149085831.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Darcie",
+      "email": "dvdotnet@sbcglobal.net",
+      "mobile": "(847) 288-7251",
+      "class": "9",
+      "gender": "Female",
+      "teacher": "Kayden Sullivan",
+      "address": "7 Southampton Lane, Edison, NJ 08817",
+      "photo": "https://media.istockphoto.com/id/1203187547/photo/head-shot-portrait-of-a-teenage-girl.jpg?s=612x612&w=0&k=20&c=mLOyenDLuqJ7g8P_LhhsUDXBcn0sSxPfpvNjzta7RCM="
+    },
+    {
+      "id": 10,
+      "name": "Clara",
+      "email": "kudra@aol.com",
+      "mobile": "(528) 960-2063",
+      "class": "10",
+      "gender": "Female",
+      "teacher": "Gina Campos",
+      "address": "87 Pheasant Lane, West Chester, PA 19380",
+      "photo": "https://media.istockphoto.com/id/916185258/photo/happy-girl-wearing-glasses.jpg?s=612x612&w=0&k=20&c=X1Pbk7W4bM-ccONpfmuJI7C8Zy7WDTnMRLvYj-Lm6TM="
+    },
+    {
+      "id": 11,
+      "name": "Oakley",
+      "email": "aglassis@live.com",
+      "mobile": "(932) 917-5433",
+      "class": "10",
+      "gender": "Male",
+      "teacher": "Gina Campos",
+      "address": "99 8th Ave. Greensburg, PA 15601",
+      "photo": "https://media.istockphoto.com/id/1410738422/photo/portrait-of-young-smile-handsome-black-african-american-man-on-gray-wall-background-happy.webp?b=1&s=170667a&w=0&k=20&c=9bG8S7zYtKsoRl52YdE4-wW6KvBAPnsKXQNS4f2UTAc="
+    },
+    {
+      "id": 12,
+      "name": "Ryan",
+      "email": "chunzi@comcast.net",
+      "mobile": "(749) 951-8911",
+      "class": "9",
+      "gender": "Male",
+      "teacher": "Kayden Sullivan",
+      "address": "397 Del Monte Street, Spring Hill, FL 34608",
+      "photo": "https://ggsc.s3.amazonaws.com/images/uploads/How_to_Get_Teen_Boys_to_Open_Up.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Abigail",
+      "email": "mkearl@sbcglobal.net",
+      "mobile": "(411) 570-5230",
+      "class": "8",
+      "gender": "Female",
+      "teacher": "Remington Benton",
+      "address": "28 Hall Street, Dearborn, MI 48124",
+      "photo": "https://images.unsplash.com/photo-1564564295391-7f24f26f568b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80"
+    },
+    {
+      "id": 14,
+      "name": "Alana",
+      "email": "makarow@mac.com",
+      "mobile": "(946) 384-4335",
+      "class": "8",
+      "gender": "Female",
+      "teacher": "Remington Benton",
+      "address": "4A Grove Dr. Spartanburg, SC 29301",
+      "photo": "https://media.istockphoto.com/id/939108006/photo/portrait-of-cute-girl.jpg?s=170667a&w=0&k=20&c=YRkMlR-fz0acwcypsN8s87KH_MwWn8FM7uZe5X8BagY="
+    },
+    {
+      "id": 15,
+      "name": "Leon",
+      "email": "offthelip@icloud.com",
+      "mobile": "(274) 624-1216",
+      "class": "9",
+      "gender": "Male",
+      "teacher": "Kayden Sullivan",
+      "address": "892 South Deerfield Rd. Orange, NJ 07050",
+      "photo": "https://www.yourmodernfamily.com/wp-content/uploads/2018/10/teenage-boy.png"
+    },
+    {
+      "id": 16,
+      "name": "Dylan",
+      "email": "hikoza@msn.com",
+      "mobile": "(342) 621-2732",
+      "class": "10",
+      "gender": "Male",
+      "teacher": "Gina Campos",
+      "address": "248 Spring Street, Chelmsford, MA 01824",
+      "photo": "https://thefatheringproject.org/wp-content/uploads/2021/11/enyxk17so6a.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Louis",
+      "email": "jimmichie@me.com",
+      "mobile": "(288) 435-6551",
+      "class": "8",
+      "gender": "Male",
+      "teacher": "Remington Benton",
+      "address": "7435 Piper St. Springfield Gardens, NY 11413",
+      "photo": "https://media.istockphoto.com/id/1129669690/photo/curly-teen-laughing.jpg?s=612x612&w=0&k=20&c=rHEDsTd2mKgLhw4izosFVQ-CDB08H-c5hSR0fcnsKc4="
+    },
+    {
+      "id": 18,
+      "name": "Daleyza",
+      "email": "jusdisgi@optonline.net",
+      "mobile": "(768) 309-5077",
+      "class": "8",
+      "gender": "Female",
+      "teacher": "Remington Benton",
+      "address": "49 Trenton Avenue, Parkville, MD 21234",
+      "photo": "https://media.istockphoto.com/id/524259481/photo/indian-female-student.jpg?s=612x612&w=0&k=20&c=8SEDRcjRQ_XBPQCt1yxBgx1Q7BjnAwsCJq24k0Z36Hs="
+    },
+    {
+      "id": 19,
+      "name": "Demi",
+      "email": "mfburgo@outlook.com",
+      "mobile": "(257) 629-0329",
+      "class": "10",
+      "gender": "Female",
+      "teacher": "Gina Campos",
+      "address": "521 Goldfield Avenue, Burbank, IL 60459",
+      "photo": "helhttps://img.freepik.com/free-photo/beautiful-dark-skinned-female-with-long-brunette-hair-broad-happy-smile-wearing-denim-shirt-enjoying-good-positive-news-concerning-her-promotion-work-posing-isolated-against-white-blank-wall-b_176420-10367.jpg?w=360lo"
+    },
+    {
+      "id": 20,
+      "name": "Lana",
+      "email": "msloan@icloud.com",
+      "mobile": "(671) 412-6923",
+      "class": "8",
+      "gender": "Female",
+      "teacher": "Remington Benton",
+      "address": "332 Alton St. Port Huron, MI 48060",
+      "photo": "https://img.freepik.com/premium-photo/cheerful-caucasian-girl-posing-looking-camera_129479-2662.jpg?w=2000"
+    },
+    {
+      "id": 21,
+      "name": "Jude",
+      "email": "pemungkah@verizon.net",
+      "mobile": "(460) 653-2971",
+      "class": "9",
+      "gender": "Male",
+      "teacher": "Kayden Sullivan",
+      "address": "8151 Roosevelt St. Annapolis, MD 21401",
+      "photo": "https://media.istockphoto.com/id/1142510651/photo/portrait-of-18-year-old-mixed-race-teen-male.jpg?s=612x612&w=0&k=20&c=YvUrI16AKoO2iqfQsWVWtkLDgxEFrF5r1WVWjb9DbOo="
+    }
+  ]
+}
