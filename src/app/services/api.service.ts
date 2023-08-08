@@ -21,4 +21,14 @@ export class ApiService {
   viewStudent(studentId:string){
     return this.http.get(`${this.baseUrl}/${studentId}`)
   }
+
+  // function for adding new student to server
+  addStudent(studentBody:any){
+    return this.http.post(this.baseUrl,studentBody)
+  }
+
+  // function for deleting student from server
+  deleteStudent(studentId:any){
+    return this.http.delete(`${this.baseUrl}/${studentId}`)
+  }
 }

@@ -41,7 +41,7 @@
             <img [src]="student.photo" alt="">
           </div>
           <span
-            class="absolute top-0 left-0 inline-flex mt-3 ml-3 px-3 py-2 rounded-lg z-10 bg-red-500 text-sm font-medium text-white select-none">
+            class="absolute top-0 left-0 inline-flex mt-3 ml-3 px-3 py-2 rounded-lg z-10 bg-green-500 text-sm font-medium text-white select-none">
             <p>Class <span> {{student.class}}</span></p>
           </span>
         </div>
@@ -58,13 +58,17 @@
           </p>
         </div>
 
-        <div class="lg:grid lg:grid-cols-2 mt-2 flex justify-center justify-items-center">
-          <div class="p-3">
+        <div class="lg:grid lg:grid-cols-3 mt-4 flex justify-center justify-items-center">
+          <div class="p-1">
+            <button (click)="deleteStudent(student.id)"
+              class="bg-red-600 text-white px-4 py-2 rounded-lg hover:text-black"><i class="fa-solid fa-trash"></i> Delete </button>
+          </div>
+          <div class="p-1">
             <button routerLink="/student/view/{{student.id}}"
               class="bg-yellow-600 text-white px-4 py-2 rounded-lg hover:text-black"><i class="fa-solid fa-eye"></i>
               View </button>
           </div>
-          <div class="p-3">
+          <div class="p-1">
             <button routerLink="/student/edit/{{student.id}}"
               class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:text-black"><i class="fa-solid fa-pen"></i>
               Update </button>
