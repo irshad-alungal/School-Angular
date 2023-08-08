@@ -10,6 +10,7 @@ import { MyStudent } from 'src/assets/models/myStudent';
 export class StudentManagerComponent implements OnInit {
 
   allStudent:MyStudent[] = []
+  searchKey:string =''
 
   constructor (private api:ApiService) {}
 
@@ -19,7 +20,9 @@ export class StudentManagerComponent implements OnInit {
       
       this.allStudent=data
     })
-
-    
+  }
+  //search
+  search(event:any){
+    this.searchKey=event.target.value
   }
 }
