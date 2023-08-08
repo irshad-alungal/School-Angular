@@ -31,4 +31,9 @@ export class ApiService {
   deleteStudent(studentId:any){
     return this.http.delete(`${this.baseUrl}/${studentId}`)
   }
+
+  // update a student
+  updateStudent(studentId:any, studentBody:any){
+    return this.http.put(`${this.baseUrl}/${studentId}`, studentBody)
+  }
 }

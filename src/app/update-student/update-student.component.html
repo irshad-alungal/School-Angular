@@ -6,44 +6,44 @@
 
             <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
                 <i class="fa-solid fa-fingerprint text-gray-400 h-5 w-5"></i>
-                <input class="pl-2 outline-none border-none" type="text" name="" id="" placeholder="Student Id" />
+                <input name="id" [(ngModel)]="student.id" class="pl-2 outline-none border-none" type="text"  placeholder="Student Id" />
             </div>
             <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
                 <i class="fa-solid fa-user text-gray-400 h-5 w-5"></i>
-                <input class="pl-2 outline-none border-none" type="text" name="" id="" placeholder="Student Name" />
+                <input name="name" [(ngModel)]="student.name" class="pl-2 outline-none border-none" type="text"  placeholder="Student Name" />
             </div>
             <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
                 <i class="fa-solid fa-at text-gray-400 h-5 w-5"></i>
-                <input class="pl-2 outline-none border-none" type="text" name="" id="" placeholder="Email" />
+                <input name="email" [(ngModel)]="student.email" class="pl-2 outline-none border-none" type="text"  placeholder="Email" />
             </div>
             <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
                 <i class="fa-solid fa-mobile-screen-button text-gray-400 h-5 w-5"></i>
-                <input class="pl-2 outline-none border-none" type="text" name="" id="" placeholder="Mobile" />
+                <input name="mobile" [(ngModel)]="student.mobile" class="pl-2 outline-none border-none" type="text"  placeholder="Mobile" />
             </div>
             <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
                 <i class="fa-solid fa-graduation-cap text-gray-400 h-5 w-5"></i>
-                <input class="pl-2 outline-none border-none" type="text" name="" id="" placeholder="Class" />
+                <input name="class" [(ngModel)]="student.class" class="pl-2 outline-none border-none" type="text"  placeholder="Class" />
             </div>
             <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
                 <i class="fa-solid fa-venus-mars text-gray-400 h-5 w-5"></i>
-                <input class="pl-2 outline-none border-none" type="text" name="" id="" placeholder="Gender" />
+                <input name="gender" [(ngModel)]="student.gender"  class="pl-2 outline-none border-none" type="text"  placeholder="Gender" />
             </div>
             <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
                 <i class="fa-solid fa-person-chalkboard text-gray-400 h-5 w-5"></i>
-                <input class="pl-2 outline-none border-none" type="text" name="" id="" placeholder="Class Teacher" />
+                <input name="teacher" [(ngModel)]="student.teacher" class="pl-2 outline-none border-none" type="text"  placeholder="Class Teacher" />
             </div>
             <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
                 <i class="fa-solid fa-location-dot text-gray-400 h-5 w-5"></i>
-                <input class="pl-2 outline-none border-none" type="text" name="" id="" placeholder="Address" />
+                <input name="address" [(ngModel)]="student.address" class="pl-2 outline-none border-none" type="text"  placeholder="Address" />
             </div>
             <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
                 <i class="fa-solid fa-image text-gray-400 h-5 w-5"></i>
-                <input class="pl-2 outline-none border-none" type="text" name="" id="" placeholder="Photo URL" />
+                <input name="photo" [(ngModel)]="student.photo" class="pl-2 outline-none border-none" type="text"  placeholder="Photo URL" />
             </div>
             <div class="flex items-center py-2 px-3 rounded-2xl mb-4">
-                <img class="rounded-2xl h-28 w-28" src="https://img.freepik.com/free-photo/teenager-having-fun-with-friends_23-2149306183.jpg?w=1060&t=st=1691061350~exp=1691061950~hmac=20869ec97eadf58b3ef5b1772f8e4c7adb11ae45f8e989df35f5030fb914703d" alt="">
+                <img class="rounded-2xl h-28 w-28" [src]="student.photo" alt="">
             </div>
-            <button routerLink="/" type="submit"
+            <button value="update" (click)="updateStudent()" type="submit"
                 class="block w-full bg-green-600 mt-4 py-2 rounded-2xl text-white font-semibold mb-2"><i class="fa-solid fa-check"></i> Update</button>
         </form>
     </div>
