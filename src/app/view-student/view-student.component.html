@@ -2,46 +2,46 @@
   <div class="container px-5 py-5 mx-auto" style="cursor: auto;">
     <div class="lg:w-4/5 mx-auto flex flex-wrap">
       <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-        src="https://img.freepik.com/free-photo/teenager-having-fun-with-friends_23-2149306183.jpg?w=1060&t=st=1691061350~exp=1691061950~hmac=20869ec97eadf58b3ef5b1772f8e4c7adb11ae45f8e989df35f5030fb914703d"
+        [src]="student.photo"
         style="cursor: auto;">
       <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0" style="cursor: auto;">
-        <h1 class="text-gray-900 text-3xl title-font font-medium mb-1" style="cursor: auto;">Statue of Liberty</h1>
+        <h1 class="text-gray-900 text-3xl title-font font-medium mb-1" style="cursor: auto;">{{student.name}}</h1>
 
         <ul class="space-y-2 tracking-wide mt-4">
           <li>
             <p href="#" class="px-5 py-3 flex items-center space-x-4 rounded-md text-gray-700 group">
               <i class="fa-solid fa-envelope"></i>
-              <span class="group-hover:text-gray-700"> mialungal@gmail.com</span>
+              <span class="group-hover:text-gray-700"> {{student.email}}</span>
             </p>
           </li>
           <li>
             <p href="#" class="px-5 py-3 flex items-center space-x-4 rounded-md text-gray-700 group">
               <i class="fa-solid fa-mobile-screen-button"></i>
-              <span class="group-hover:text-gray-700">+91 73 5626 4323</span>
+              <span class="group-hover:text-gray-700"> {{student.mobile}}</span>
             </p>
           </li>
           <li>
             <p href="#" class="px-5 py-3 flex items-center space-x-4 rounded-md text-gray-700 group">
               <i class="fa-solid fa-venus-mars"></i>
-              <span class="group-hover:text-gray-700">Male</span>
+              <span class="group-hover:text-gray-700">{{student.gender}}</span>
             </p>
           </li>
           <li>
             <p href="#" class="px-5 py-3 flex items-center space-x-4 rounded-md text-gray-700 group">
               <i class="fa-solid fa-location-dot"></i>
-              <span class="group-hover:text-gray-700">Alungal</span>
+              <span class="group-hover:text-gray-700">{{student.address}}</span>
             </p>
           </li>
           <li>
             <p href="#" class="px-5 py-3 flex items-center space-x-4 rounded-md text-gray-700 group">
               <i class="fa-solid fa-person-chalkboard"></i>
-              <span class="group-hover:text-gray-700">Kalaiselvan</span>
+              <span class="group-hover:text-gray-700">{{student.teacher}}</span>
             </p>
           </li>
           <li>
             <p href="#" class="px-5 py-3 flex items-center space-x-4 rounded-md text-gray-700 group">
               <i class="fa-solid fa-landmark"></i>
-              <span class="group-hover:text-gray-700">10th</span>
+              <span class="group-hover:text-gray-700">{{student.class}}th</span>
             </p>
           </li>
         </ul>

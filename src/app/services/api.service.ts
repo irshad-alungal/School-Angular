@@ -12,8 +12,13 @@ export class ApiService {
 
   constructor(private http:HttpClient) { }
 
-  // fuction for get all students 
+  // function for get all students 
   getAllstudents(): Observable<MyStudent> {
     return this.http.get(this.baseUrl)
+  }
+
+  // function for view a particular student
+  viewStudent(studentId:string){
+    return this.http.get(`${this.baseUrl}/${studentId}`)
   }
 }
